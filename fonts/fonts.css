@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'GothaProBla';
+    src: url('GothaProBla.otf');
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url('GothaProBol.otf');
+}
+
+@font-face {
+    font-family: 'Gotha`ProLig';
+    src: url('GothaProLig.otf');
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('GothaProMed.otf');
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url('GothaProReg.otf');
+}
+
