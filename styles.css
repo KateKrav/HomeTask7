@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    position: relative;
+    width: 100%;
+}
+.banner_text {
+    color: #ffffff;
+    display: block;
+    box-sizing:border-box;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+}
+
+.banner_text h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.banner_text p {
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Gotham Pro Light, sans-serif;
+}
+
+.banner_slogan {
+    color: #ffffff;
+    display: block;
+    box-sizing:border-box;
+    position: absolute;
+    top: 405px;
+    width: 100%;
+    margin:81px 0 81px 0;
+}
+
+.banner_slogan h3 {
+    font-size: 42px;
+    color: #b6f1ff;
+    margin:0 0 81px 966px;
+
+}
+
+.banner_slogan p {
+    font-size: 30px;
+    font-family: Gotham Pro Light, sans-serif;
+    margin:81px 0 81px 966px;
+}
+.banner_slogan button {
+    font-size: 24px;
+    font-family: Gotham Pro Black, sans-serif;
+    margin:0 0 81px 966px;
+    width: 344px;
+    height: 71px;
+    border-radius: 5px;
+    background-color: #ff1744;
+    color:#ffffff;
+    text-transform: uppercase;
+    border-color: #ff1744 #ff1744 #d50000 #ff1744;
+}

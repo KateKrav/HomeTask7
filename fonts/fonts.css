@@ -23,3 +23,6 @@
     src: url('GothaProReg.otf');
 }
 
+html{
+    font-family: "GothaProBol", serif;
+}
