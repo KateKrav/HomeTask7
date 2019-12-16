@@ -6,10 +6,14 @@
     position: relative;
     width: 100%;
 }
+
+.banner img{
+    width: 100%;
+}
+
 .banner_text {
     color: #ffffff;
-    display: block;
-    box-sizing:border-box;
+    box-sizing: border-box;
     position: absolute;
     top: 35px;
     width: 100%;
@@ -25,12 +29,13 @@
     text-align: center;
     font-size: 30px;
     font-family: Gotham Pro Light, sans-serif;
+
 }
 
 .banner_slogan {
     color: #ffffff;
-    display: block;
-    box-sizing:border-box;
+    /*display: block;*/
+    box-sizing: border-box;
     position: absolute;
     top: 405px;
     width: 100%;
