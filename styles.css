@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+@media screen and(max-width: 1200px){
+
+}
 .banner {
     position: relative;
     width: 100%;
@@ -34,7 +37,6 @@
 
 .banner_slogan {
     color: #ffffff;
-    /*display: block;*/
     box-sizing: border-box;
     position: absolute;
     top: 405px;
@@ -46,7 +48,6 @@
     font-size: 42px;
     color: #b6f1ff;
     margin:0 0 81px 966px;
-
 }
 
 .banner_slogan p {
@@ -98,14 +99,20 @@
     text-align: center;
     flex-wrap: wrap;
 }
+.advantages_item{
+    margin-bottom: 75px;
+}
+
 .icon_teachers{
     padding:0 15px 10px;
-
 }
 .advantages_item img{
     margin-bottom:27px ;
-
 }
+.icon_chronometer img{
+    padding-bottom: 10px;
+    margin: 0;
+ }
 .advantages_item h3 {
     line-height: 1.5em;
 }
@@ -115,4 +122,10 @@
     vertical-align: baseline;
     font-size: 16px;
     line-height: 1.5em;
+}
+
+
+
+@media screen and(max-width: 1200px){
+
 }
