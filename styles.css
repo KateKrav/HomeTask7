@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @media screen and(max-width: 1200px){
 
@@ -73,6 +74,7 @@
 .second_page {
     width: 1170px;
     margin: 0 auto;
+    background-color: #b6f1ff;
 }
 
 .second_page h2{
@@ -80,42 +82,37 @@
     margin: 69px 0 83px 0;
     font-size: 47px;
     font-family: Gotham Pro Medium, sans-serif;
+    background-color: yellow;
 }
+
 .advantages_container {
+    padding: 0 50px;
     display: flex;
     flex-wrap: wrap;
-    width: 1076px;
-    padding:0 47px 0;
-    align-content: center;
     justify-content: center;
+    background-color: cornsilk;
 }
-.advantages_container p h3{
-    vertical-align: baseline;
+
+.advantages_container div img{
+height: 50px;
 }
 
 .advantages {
-    padding: 30px;
+    width: 10em;
+    margin: 30px;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
 }
-.advantages_item{
-    margin-bottom: 75px;
+
+.advantages_item img{
+    margin-bottom: 27px ;
 }
 
-.icon_teachers{
-    padding:0 15px 10px;
-}
-.advantages_item img{
-    margin-bottom:27px ;
-}
-.icon_chronometer img{
-    padding-bottom: 10px;
-    margin: 0;
- }
 .advantages_item h3 {
     line-height: 1.5em;
 }
+
 .advantages_item p{
     margin-top: 10px;
     font-family: Gotham Pro Light, sans-serif;
@@ -123,8 +120,6 @@
     font-size: 16px;
     line-height: 1.5em;
 }
-
-
 
 @media screen and(max-width: 1200px){
 
