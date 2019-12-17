@@ -72,35 +72,47 @@
 .second_page {
     width: 1170px;
     margin: 0 auto;
-    background-color: #b6f1ff;
 }
 
 .second_page h2{
     text-align: center;
-    margin-top: 69px;
+    margin: 69px 0 83px 0;
     font-size: 47px;
+    font-family: Gotham Pro Medium, sans-serif;
 }
 .advantages_container {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 1076px;
+    padding:0 47px 0;
+    align-content: center;
+    justify-content: center;
 }
-.advantages_container p {
+.advantages_container p h3{
     vertical-align: baseline;
 }
 
 .advantages {
-    padding-top: 40px;
+    padding: 30px;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
 }
+.icon_teachers{
+    padding:0 15px 10px;
 
-.advantages_item {
-    width: 100%;
+}
+.advantages_item img{
+    margin-bottom:27px ;
 
+}
+.advantages_item h3 {
+    line-height: 1.5em;
 }
 .advantages_item p{
     margin-top: 10px;
+    font-family: Gotham Pro Light, sans-serif;
     vertical-align: baseline;
+    font-size: 16px;
+    line-height: 1.5em;
 }
