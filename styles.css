@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and(max-width: 1200px){
 
-}
 .banner {
     position: relative;
     width: 100%;
@@ -41,8 +39,8 @@
     box-sizing: border-box;
     position: absolute;
     top: 405px;
+    left: 81px;
     width: 100%;
-    margin:81px 0 81px 0;
 }
 
 .banner_slogan h3 {
@@ -74,7 +72,7 @@
 .second_page {
     width: 1170px;
     margin: 0 auto;
-    background-color: #b6f1ff;
+
 }
 
 .second_page h2{
@@ -82,7 +80,6 @@
     margin: 69px 0 83px 0;
     font-size: 47px;
     font-family: Gotham Pro Medium, sans-serif;
-    background-color: yellow;
 }
 
 .advantages_container {
@@ -90,11 +87,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: cornsilk;
 }
 
 .advantages_container div img{
-height: 50px;
+    height: 50px;
 }
 
 .advantages {
@@ -120,7 +116,67 @@ height: 50px;
     font-size: 16px;
     line-height: 1.5em;
 }
+/*ВТОРАЯ СТРАНИЦА ЗАКОНЧИЛАСЬ*/
+.events{
+    background-color: #f5f5f5;
+}
+.events_body{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #92c9d4;
+}
+.event_title {
+    text-align: center;
+    padding: 70px 0 67px;
 
-@media screen and(max-width: 1200px){
+}
+.event_title h3 {
+     font-size: 48px;
+ }
+.event_title p {
+    font-size: 24px;
+    font-family: Gotham Pro light, sans-serif;
+}
+.event_content {
+    display: flex;
+    border-bottom: 1px solid #333333;
+}
 
+.event_content h3 {
+    margin-top: 47px;
+    font-size: 48px;
+    font-family: GothaProReg, sans-serif;
+    line-height: 1.5em;
+}
+.event_content h4 {
+    font-size: 24px;
+    font-family: Gotham Pro light, sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.5em;
+}
+.event_content div {
+    margin-left:97px;
+    padding-bottom: 70px ;
+}
+.event_content p {
+    font-size: 18px;
+    font-family: Gotham Pro light, sans-serif;
+    line-height: 1.5em;
+}
+.event_content div p, #container_text_right div p {
+    width: 555px;
+}
+
+
+
+/*ПРАВЫЙ КОНТЕЙНЕР*/
+
+#container_text_right div {
+    margin: 68px 97px 0 0;
+    text-align: end;
+}
+/*ПРАВЫЙ КОНТЕЙНЕР закончился*/
+
+#distance_block_up{
+    margin: 68px;
 }
