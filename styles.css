@@ -124,7 +124,7 @@
 .events_body{
     width: 1170px;
     margin: 0 auto;
-    background-color: #92c9d4;
+
 }
 .event_title {
     text-align: center;
@@ -140,7 +140,7 @@
 }
 .event_content {
     display: flex;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #626262;
 }
 
 .event_content h3 {
@@ -239,4 +239,9 @@ button{
     background-color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 80px;
+}
+
+/*ЗАКОНЧИЛАСЬ Страница "заказать билет"*/
+.tame_liberty{
+    background-color: #F5F5F5;
 }
