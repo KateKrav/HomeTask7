@@ -123,7 +123,7 @@
 .events_body{
     width: 1170px;
     margin: 0 auto;
-
+/*background-color: #b6f1ff;*/
 }
 .event_title {
     text-align: center;
@@ -162,9 +162,10 @@
     line-height: 1.5em;
 }
 .event_content div {
-    margin-left: 115px;
+    margin-left: 85px;
     padding-bottom: 70px ;
     padding-top: 68px;
+
 }
 .event_content p {
     font-size: 18px;
@@ -198,8 +199,10 @@
 .body_ticket  {
     width: 1170px;
     margin: 0 auto;
-    /*height: 473px;*/
     text-align: center;
+    position: relative;
+    z-index: 2;
+
 
 }
 .ticket{
@@ -250,4 +253,82 @@ button{
 /*ЗАКОНЧИЛАСЬ Страница "заказать билет"*/
 .tame_liberty{
     background-color: #F5F5F5;
+    z-index: 3;
+}
+.body_tame_liberty{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b6f1ff;
+}
+.body_tame_liberty div{
+    margin-bottom: 75px;
+}
+
+.container_liberty {
+    display: flex;
+}
+.liberty_title h3 {
+    font-size: 48px;
+    font-family: Gotham Pro Medium, sans-serif;
+}
+
+.liberty_title p {
+    font-size: 24px;
+    font-family: Gotham Pro light, sans-serif;
+}
+
+.liberty_title {
+    margin: 82px 30px 0 308px  ;
+}
+.liberty_icon{
+    padding-top: 92px;
+}
+
+.balloon img {
+    position: absolute;
+    z-index: 1;
+    left: 24em;
+    top: 456em;
+}
+
+.wonders_word img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.title_content{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title_content h4 {
+    font-size: 24px;
+    font-family: Gotham Pro Medium, sans-serif;
+}
+
+.title_content p {
+    font-size: 18px;
+    font-family: Gotham Pro light, sans-serif;
+    width: 750px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding-bottom: 75px;
+}
+
+/*СТРАНИЦА С ВИДЕО*/
+.moovi_body{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.moovi_title h3{
+    padding-top: 74px;
+    padding-bottom: 48px;
+    font-size: 48px;
+    font-family: Gotham Pro Medium, sans-serif;
+}
+.moovi_title img{
+    padding-bottom: 78px;
 }
