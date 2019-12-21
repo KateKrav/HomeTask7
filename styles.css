@@ -329,6 +329,53 @@ button{
     font-size: 48px;
     font-family: Gotham Pro Medium, sans-serif;
 }
-.moovi_title img{
-    padding-bottom: 78px;
+.separate_line_moovi img {
+    display: block;
+    margin: 0 auto;
+    padding: 80px 0 71px;
+}
+/*СТРАНИЦА */
+
+
+.variant_body{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.variant_body h3 {
+    font-size: 48px;
+    font-family: Gotham Pro Medium, sans-serif;
+    margin-bottom: 72px;
+}
+.variant_up{
+    display: flex;
+}
+.variant_content {
+    width: 234px;
+    margin: 0 30px;
+
+}
+.variant_img  img{
+       margin-bottom: 33px;
+}
+
+.variant_img  img{
+    height: 120px;
+}
+.variant_title p {
+    font-size: 18px;
+    font-family: Gotham Pro light, sans-serif;
+}
+.separate_line_variant img {
+    display: block;
+    margin: 0 auto;
+    padding: 21px 0 119px;
+}
+
+.content_none{
+    height: 655px;
+}
+.table{
+    background-color: #b6f1ff;
 }
