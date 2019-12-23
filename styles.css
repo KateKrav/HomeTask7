@@ -357,7 +357,7 @@ button{
 
 }
 .variant_img  img{
-       margin-bottom: 33px;
+    margin-bottom: 33px;
 }
 
 .variant_img  img{
@@ -378,4 +378,71 @@ button{
 }
 .table{
     background-color: #b6f1ff;
+}
+
+.more_details {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.details_body{
+    display: flex;
+}
+
+ul{
+    list-style-type: circle;
+    color: #ff1744;
+
+}
+li span {
+    color: black;
+    list-style-type: circle;
+    line-height: 2.5em;
+}
+.picture img{
+    margin-right: 225px;
+    margin-left: 163px;
+}
+.content_details h3{
+    font-size: 48px;
+    font-family: Gotham Pro Medium, sans-serif;
+}
+.content_details p {
+    font-size: 18px;
+    font-family: Gotham Pro light, sans-serif;
+}
+
+.tabbed{
+    width: 1170px;
+    margin: 0 auto;
+}
+.tabbed > input{
+    display: none;
+
+}
+.tabbed > label {
+    display: block;
+    float: left;
+    margin:0 70px;
+    cursor: pointer;
+
+}
+
+.tabbed > label:hover,
+.tabbed > label:checked + label{
+    border-bottom: 7px solid #ff1744;
+}
+.tabs{
+   clear: both;
+}
+.tabs > div{
+    position: absolute;
+    opacity: 0;
+}
+
+#tabs_nav_1:checked ~ .tabs > div:nth-of-type(1),
+#tabs_nav_2:checked ~ .tabs > div:nth-of-type(2),
+#tabs_nav_3:checked ~ .tabs > div:nth-of-type(3),
+#tabs_nav_4:checked ~ .tabs > div:nth-of-type(4) {
+    opacity: 1;
 }
