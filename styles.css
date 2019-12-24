@@ -431,7 +431,11 @@ li span {
 .tabbed > label:hover,
 .tabbed > label:checked + label{
     border-bottom: 7px solid #ff1744;
+    padding-bottom: 30px;
+    transition: 1s;
 }
+
+
 .tabs{
    clear: both;
 }
@@ -445,4 +449,8 @@ li span {
 #tabs_nav_3:checked ~ .tabs > div:nth-of-type(3),
 #tabs_nav_4:checked ~ .tabs > div:nth-of-type(4) {
     opacity: 1;
+}
+
+.more_details div{
+    padding-top: 68px;
 }
