@@ -360,12 +360,51 @@ button{
     float: left;
     margin: 0 15px 33px;
 }
-
+/*Линия подчеркивающая контент табса*/
 .separate_line_variant img {
     display: block;
     margin: 0 auto;
-    padding: 21px 0 119px;
+    padding-bottom: 117px;
+
 }
+
+.transition_1,
+.transition_2,
+.transition_3,
+.transition_4 {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 21px;
+
+}
+
+
+.transition_1 div,
+.transition_2 div ,
+.transition_3 div ,
+.transition_4 div {
+    width: 189px;
+    height: 8px;
+    background-color: #ff1744;
+    border-radius: 20px;
+}
+
+.transition_1 div {
+    margin-left: 50px;
+}
+.transition_2 div{
+     margin-left: 345px;
+ }
+.transition_3 div{
+    margin-left: 639px;
+}
+.transition_4 div{
+    margin-left: 934px;
+}
+/* Закончилась Линия подчеркивающая контент табса*/
+
+
+
 
 /*.content_none{*/
 /*    height: 655px;*/
@@ -424,12 +463,12 @@ li span {
 
 }
 
-.tabbed > label:hover,
-.tabbed > label:checked + label{
-    border-bottom: 7px solid #ff1744;
-    padding-bottom: 30px;
-    transition: 1s;
-}
+/*.tabbed > label:hover,*/
+/*.tabbed > label:checked + label{*/
+/*    border-bottom: 7px solid #ff1744;*/
+/*    padding-bottom: 30px;*/
+/*    transition: 1s;*/
+/*}*/
 label{
     width: 262px;
     text-align: center;
@@ -452,6 +491,6 @@ label{
 
 }
 
-.more_details div{
-    padding-top: 68px;
-}
+/*.more_details div{*/
+/*    padding-top: 68px;*/
+/*}*/
