@@ -237,7 +237,7 @@
     margin-left: 15px;
     margin-right: 113px;
 }
-button{
+ span button{
     width: 266px;
     height: 53px;
     border-radius: .5em;
@@ -484,10 +484,20 @@ label{
 }
 .tableDecor{
     width: 1140px;
-    background-color: #ffffff;
     border-radius: 10px;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 10px 0;
+
+
+}
+
+table td {
+    padding: 26px 39px;
+    border-bottom: 1px solid #e0e0e0;
+}
 table th{
     font-size: 20px;
     font-family: Gotham Pro Medium, sans-serif;
@@ -497,25 +507,72 @@ table th{
 
 table td{
     font-size: 20px;
-    font-family: Gotham Pro Medium, sans-serif;}
+    font-family: Gotham Pro Light, sans-serif;}
 
-th {
+ tr th {
     font-weight: normal;
-    color: white;
+    color: #ffffff;
     background: #3f51b5;
-    padding: 10px 8px;
-    border-radius: 10px;
+    padding: 52px;
+    border-radius: 10px  10px 0 0;
+    width: 193%;
+    text-align: center;
+}
+.align {
+    text-align: left;
 }
 
-tr:hover th {
+tr td{
+    text-align: center;
+}
+
+th:hover {
     background-color: #ff1744;
-    border-radius: 10px;
-    padding-top: 20px;
+    border-radius: 10px  10px 0 0;
+    padding-bottom: 62px;
 }
 
 td {
     color: #24292d;
-    padding: 9px 8px;
     transition: .3s linear;
 }
-tr:hover td {color: #6699ff;}
+
+
+tr button{
+    color: #ffffff;
+    background-color: #ff1744;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: GothaProReg, sans-serif;
+    text-align: center;
+}
+
+.economic td{
+    background: #3f51b5;
+    color: #ffffff;
+}
+ .economic  :hover {
+     background-color: #ff1744;
+}
+
+#economic_title {
+    background: #ffffff;
+    color: #24292d;
+    border-bottom-left-radius: 10px ;
+}
+.title  {
+ background-color: #ffffff;
+
+}
+#title_first {
+    border-top-left-radius: 10px ;
+}
+
+.button_table{
+    background-color: #ffffff;
+}
+#title_none td {
+    background: none;
+}
