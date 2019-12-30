@@ -259,7 +259,6 @@
     width: 1170px;
     margin: 0 auto;
     text-align: center;
-    background-color: #b6f1ff;
 }
 .body_tame_liberty div{
     margin-bottom: 75px;
@@ -473,14 +472,15 @@ label{
     background: #ffffff;
 }
 
+/*Таблица*/
 .content_table{
     background: rgba(195, 195, 195, 0.29);
     display: flex;
     justify-content: center;
+    padding-bottom: 77px;
 }
 .tableArea{
     padding-top: 921px;
-
 }
 .tableDecor{
     width: 1140px;
@@ -490,8 +490,6 @@ label{
 table {
     border-collapse: separate;
     border-spacing: 10px 0;
-
-
 }
 
 table td {
@@ -504,11 +502,10 @@ table th{
     empty-cells: hide;
     text-align: left;
 }
-
 table td{
     font-size: 20px;
-    font-family: Gotham Pro Light, sans-serif;}
-
+    font-family: Gotham Pro Light, sans-serif;
+}
  tr th {
     font-weight: normal;
     color: #ffffff;
@@ -532,11 +529,19 @@ th:hover {
     padding-bottom: 62px;
 }
 
+#bolt td{
+    font-size: 20px;
+    font-family: Gotham Pro, sans-serif;
+}
+#bolt  #title_first{
+    font-size: 20px;
+    font-family: GothaProReg, sans-serif;
+}
+
 td {
     color: #24292d;
     transition: .3s linear;
 }
-
 
 tr button{
     color: #ffffff;
@@ -548,10 +553,11 @@ tr button{
     font-family: GothaProReg, sans-serif;
     text-align: center;
 }
-
 .economic td{
     background: #3f51b5;
     color: #ffffff;
+    font-size: 30px;
+    font-family: Gotham Pro, sans-serif;
 }
  .economic  :hover {
      background-color: #ff1744;
@@ -561,18 +567,33 @@ tr button{
     background: #ffffff;
     color: #24292d;
     border-bottom-left-radius: 10px ;
+    font-size: 20px;
 }
 .title  {
  background-color: #ffffff;
-
 }
-#title_first {
+#title_first{
     border-top-left-radius: 10px ;
+    text-align: left;
 }
 
-.button_table{
+.button_table td{
     background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    border-bottom: none;
 }
 #title_none td {
     background: none;
+}
+
+.title_bolt td{
+    font-size: 20px;
+    font-family: Gotham Pro, sans-serif;
+    background-color: #ffffff;
+}
+#align_bolt  {
+    text-align: left;
+    font-size: 20px;
+    font-family: Gotham Pro, sans-serif;
+    background-color: #ffffff;
 }
