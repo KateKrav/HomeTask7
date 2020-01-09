@@ -30,7 +30,7 @@
     top: 30px;
     text-align: center;
     font-size: 30px;
-    font-family: Gotham Pro Light, sans-serif;
+    /*font-family: Gotham Pro Light, sans-serif;*/
 
 }
 
@@ -51,7 +51,7 @@
 
 .banner_slogan p {
     font-size: 30px;
-    font-family: Gotham Pro Light, sans-serif;
+    /*font-family: Gotham Pro Light, sans-serif;*/
     margin:81px 0 81px 966px;
 }
 .banner_slogan button {
@@ -596,4 +596,11 @@ tr button{
     font-size: 20px;
     font-family: Gotham Pro, sans-serif;
     background-color: #ffffff;
+}
+
+p.footer-p  {
+    background-color: #3f51b5;
+    text-align: center;
+    color: #ffffff;
+   padding: 99px 0;
 }
