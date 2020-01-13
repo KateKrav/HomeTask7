@@ -13,7 +13,7 @@
     width: 100%;
 }
 
-.banner_text {
+.banner__text {
     color: #ffffff;
     box-sizing: border-box;
     position: absolute;
@@ -21,20 +21,21 @@
     width: 100%;
 }
 
-.banner_text h2 {
+.banner__text h2 {
+    font-family: Gotham Pro Blac, sans-serif;
     font-size: 60px;
     text-align: center;
 }
 
-.banner_text p {
+.banner__text p {
     top: 30px;
     text-align: center;
     font-size: 30px;
-    /*font-family: Gotham Pro Light, sans-serif;*/
+    font-family: Gotham Pro Light, sans-serif;
 
 }
 
-.banner_slogan {
+.banner__slogan {
     color: #ffffff;
     box-sizing: border-box;
     position: absolute;
@@ -43,18 +44,19 @@
     width: 100%;
 }
 
-.banner_slogan h3 {
+.banner__slogan h3 {
+    font-family: Gotham Pro Bolt, sans-serif;
     font-size: 42px;
     color: #b6f1ff;
     margin:0 0 81px 966px;
 }
 
-.banner_slogan p {
+.banner__slogan p {
     font-size: 30px;
-    /*font-family: Gotham Pro Light, sans-serif;*/
+    font-family: Gotham Pro Light, sans-serif;
     margin:81px 0 81px 966px;
 }
-.banner_slogan button {
+.banner__slogan button {
     font-size: 24px;
     font-family: Gotham Pro Black, sans-serif;
     margin:0 0 81px 966px;
@@ -68,48 +70,47 @@
 
 }
 /*ПЕРВАЯ СТРАНИЦА ЗАКОНЧИЛАСЬ*/
-/*ширина:1170px*/
-.second_page {
+
+.wrapper{
     width: 1170px;
     margin: 0 auto;
-
 }
 
-.second_page h2{
+.advantages h2{
     text-align: center;
     margin: 50px 0 40px 0;
     font-size: 47px;
     font-family: Gotham Pro Medium, sans-serif;
 }
 
-.advantages_container {
+.advantages__block {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 40px;
 }
 
-.advantages_container div img{
+.advantages__block div img{
     height: 50px;
 }
 
-.advantages {
+.advantages__container {
     width: 14em;
     margin: 40px 30px;
     text-align: center;
     flex-wrap: wrap;
 }
 
-.advantages_item img{
+.advantages__item img{
     margin-bottom: 27px ;
 }
 
-.advantages_item h3 {
+.advantages__item h3 {
     line-height: 1.5em;
+    font-family: Gotham Pro Medium, sans-serif;
 }
 
-.advantages_item p{
-
+.advantages__item p{
     font-family: Gotham Pro Light, sans-serif;
     vertical-align: baseline;
     font-size: 16px;
@@ -117,75 +118,74 @@
 }
 
 /*ВТОРАЯ СТРАНИЦА ЗАКОНЧИЛАСЬ*/
-.events{
+.events {
     background-color: #f5f5f5;
 }
-.events_body{
+.events__size{
     width: 1170px;
     margin: 0 auto;
-/*background-color: #b6f1ff;*/
+
 }
-.event_title {
+.event__title {
     text-align: center;
     padding-top: 70px;
 
 }
-.event_title h3 {
+.event__title h3 {
      font-size: 48px;
     padding-bottom: 10px;
+    font-family: Gotham Pro Bolt, sans-serif;
+
  }
-.event_title p {
+.event__title p {
     font-size: 24px;
     font-family: Gotham Pro light, sans-serif;
 }
-.event_content {
+.event__content {
     display: flex;
     }
-.separate_line{
 
-}
-.separate_line img {
+.underline img {
     display: block;
     margin: 0 auto;
 }
 
-.event_content h3 {
+.event__text-container h3 {
     margin-top: 47px;
     font-size: 48px;
     font-family: GothaProReg, sans-serif;
     line-height: 1.5em;
+
 }
-.event_content h4 {
+.event__text-container h4 {
     font-size: 24px;
     font-family: Gotham Pro light, sans-serif;
     margin-bottom: 50px;
     line-height: 1.5em;
 }
-.event_content div {
+.event__content div {
     margin-left: 85px;
     padding-bottom: 70px ;
     padding-top: 68px;
 
 }
-.event_content p {
+.event__text-container p {
     font-size: 18px;
     font-family: Gotham Pro light, sans-serif;
     line-height: 1.5em;
-}
-.event_content div p {
     width: 555px;
 }
 
 /*ПРАВЫЙ КОНТЕЙНЕР*/
 
-#container_text_right div {
+#container__text-right div {
     text-align: end;
 }
 
-#cont_text_right_2 div {
+#container__text-right-2 div {
     text-align: end;
 }
-#right div{
+#container__text-right-3 div{
     text-align: end;
     border-bottom: none;
 }
@@ -197,8 +197,6 @@
 
 /*Страница "заказать билет"*/
 .body_ticket  {
-    width: 1170px;
-    margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -297,8 +295,8 @@
     padding-bottom: 80px;
 }
 .title_content{
-    width: 1170px;
-    margin: 0 auto;
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
     text-align: center;
 }
 
@@ -318,8 +316,8 @@
 
 /*СТРАНИЦА С ВИДЕО*/
 .moovi_body{
-    width: 1170px;
-    margin: 0 auto;
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
     text-align: center;
 }
 .moovi_title h3{
@@ -337,8 +335,8 @@
 
 
 .variant_body{
-    width: 1170px;
-    margin: 0 auto;
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
     text-align: center;
     justify-content: center;
 }
@@ -349,7 +347,7 @@
 }
 
 .variant_content  {
-    width: 1170px;
+    /*width: 1170px;*/
 }
 .size_img{
     width: 262px;
@@ -371,8 +369,8 @@
 .transition_2,
 .transition_3,
 .transition_4 {
-    width: 1170px;
-    margin: 0 auto;
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
     padding-top: 21px;
 
 }
@@ -403,9 +401,8 @@
 /* Закончилась Линия подчеркивающая контент табса*/
 
 .more_details {
-    width: 1170px;
-    margin: 0 auto;
-
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
 }
 .details_body{
     display: flex;
@@ -414,7 +411,6 @@
 ul{
     list-style-type: circle;
     color: #ff1744;
-
 }
 li span {
     color: black;
@@ -436,8 +432,8 @@ li span {
 }
 /*ТАБС ТАБС ТАБС*/
 .tabbed{
-    width: 1170px;
-    margin: 0 auto;
+    /*width: 1170px;*/
+    /*margin: 0 auto;*/
 }
 .tabbed > input{
     display: none;
@@ -447,6 +443,7 @@ li span {
     float: left;
     margin:0 15px;
     cursor: pointer;
+    font-family: Gotham Pro regular, sans-serif;
 }
 
 label{
@@ -602,5 +599,6 @@ p.footer-p  {
     background-color: #3f51b5;
     text-align: center;
     color: #ffffff;
-   padding: 99px 0;
+    padding: 99px 0;
+    font-family: GothaProReg, sans-serif;
 }
